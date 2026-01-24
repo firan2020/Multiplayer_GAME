@@ -1230,22 +1230,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &1979980793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979980789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a87c3afefc0c438c6003baebfc617, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InventoryToggle
-  _viewName: PlayerInventory
-  _inventoryTiles: []
-  _inventory: {fileID: 0}
-  canvasGroup: {fileID: 1979980792}
 --- !u!1 &2042279431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1871,9 +1855,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8693279353869418396, guid: 67279924b93f2314a8fff53e50f4a714, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1979980792}
-    - targetCorrespondingSourceObject: {fileID: 8693279353869418396, guid: 67279924b93f2314a8fff53e50f4a714, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1979980793}
   m_SourcePrefab: {fileID: 100100000, guid: 67279924b93f2314a8fff53e50f4a714, type: 3}
 --- !u!1001 &9155117867167173185
 PrefabInstance:
